@@ -3,6 +3,7 @@ body {
     text-align: center;
     background-color: #ffccd5;
     color: #d00000;
+    overflow: hidden;
 }
 
 .container {
