@@ -9,12 +9,9 @@
 <body>
     <div class="container">
         <h1>Will you be my Valentine? ❤️</h1>
-        <div class="question-box">
-            <input type="text" id="customQuestion" placeholder="Type your question...">
-        </div>
         <div class="buttons">
             <button id="yesBtn" onclick="answer('yes')">Yes ❤️</button>
-            <button id="noBtn" onclick="answer('no')">No 💔</button>
+            <button id="noBtn" onmouseover="moveButton()">No 💔</button>
         </div>
         <p id="response"></p>
     </div>
